@@ -5,51 +5,64 @@
     <title>Олег - 3D моделирование и дизайн</title>
     <link rel="stylesheet" href="styles.css">
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#portfolio">Портфолио</a></li>
-                <li><a href="#about">Обо мне</a></li>
-                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="portfolio">
-            <div class="portfolio-item">
-                <img src="images/Int_01.jpg" alt="Интерьер 1">
+            <div class="portfolio-item" style="--i:1;">
+                <img src="images/01.jpg" alt="Интерьер 1">
                 <div class="overlay">
                     <div class="text">Проект 1</div>
                 </div>
             </div>
-            <div class="portfolio-item">
-                <img src="images/Int_02.jpg" alt="Интерьер 2">
+            <div class="portfolio-item" style="--i:2;">
+                <img src="images/02.jpg" alt="Интерьер 2">
                 <div class="overlay">
                     <div class="text">Проект 2</div>
                 </div>
             </div>
-            <div class="portfolio-item">
-                <img src="images/Int_03.jpg" alt="Интерьер 3">
+            <div class="portfolio-item" style="--i:3;">
+                <img src="images/03.jpg" alt="Интерьер 3">
                 <div class="overlay">
                     <div class="text">Проект 3</div>
+                </div>
+            </div>
+            <div class="portfolio-item" style="--i:4;">
+                <img src="images/04.jpg" alt="Интерьер 4">
+                <div class="overlay">
+                    <div class="text">Проект 4</div>
+                </div>
+            </div>
+            <div class="portfolio-item" style="--i:5;">
+                <img src="images/05.jpg" alt="Интерьер 5">
+                <div class="overlay">
+                    <div class="text">Проект 5</div>
+                </div>
+            </div>
+            <div class="portfolio-item" style="--i:6;">
+                <img src="images/06.jpg" alt="Интерьер 6">
+                <div class="overlay">
+                    <div class="text">Проект 6</div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>© 2023 Олег. Все права защищены.</p>
+        <p>© 2023 Oleg S.</p>
     </footer>
-
-    <!-- Модальное окно -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
-    </div>	
-
-    <script src="script.js"></script>
 </body>
 </html>
