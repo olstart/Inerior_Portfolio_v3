@@ -148,3 +148,21 @@ footer {
   cursor: pointer;
 }
 
+/* Медиа-запросы для адаптивности */
+@media only screen and (max-width: 768px) {
+    /* Стили для мобильных устройств */
+    nav ul li {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    #portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-item {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
